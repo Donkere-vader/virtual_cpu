@@ -1,6 +1,7 @@
 # CPU
 
-A very very simple Virtual CPU. Not Turing complete.
+A very very simple Virtual CPU. Not Turing complete.  
+Made this just for fun.
 
 ## Codes
 
