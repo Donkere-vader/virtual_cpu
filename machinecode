@@ -1,0 +1,16 @@
+// Simple program that counts until there's an overflow.
+
+// SETUP:0
+0x000A // Setr select active registry 00
+0x0105 // Load the value from 0x05 into the active reg
+
+// LOOP:2
+0x0307 // Add value in 07 to active reg
+0x0205 // Store value from active reg in 05
+0x0A08 // Jump to value store in 08
+
+// VARIABLES:5
+0x0000
+0x0000
+0x0001
+0x0001
